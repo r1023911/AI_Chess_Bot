@@ -1,0 +1,14 @@
+.venv/
+__pycache__/
+*.pyc
+
+# secrets / local config
+.env
+config/private.yml
+config/token.txt
+
+# engines/binaries (just in case)
+engines/
+*.exe
+*.dll
+*.so
